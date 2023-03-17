@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
 // to use css,js,files
 app.use(express.static("public"));
 //connection
-mongoose.connect("mongodb+srv://Vac13:Vactor@cluster0.0ckbdxy.mongodb.net/todolistDB",{useNewUrlParser:true});
+mongoose.connect("");
 //schema of items
 const itemSchema ={
     name: String
